@@ -1,0 +1,59 @@
+/* Styling for App Name */
+.page-container{
+    width: 70%;
+    margin: 0 auto; /* auto" tells the browser to automatically calculate the margins based on the element's width and padding */
+}
+
+.app-name{
+    text-align: center;
+    margin: 20px;
+}
+
+.input-container {
+    margin: 0 auto; /* Center on page and keep equidistance from right and left edge */
+    padding: 20px;
+    height: 100%; /* Set the container height to 100% of the viewport height */
+    width: 100%; /* Set the width to entire div */
+    display: flex;
+    justify-content: center;
+    align-items: center;  /* Align to the center of the page */
+    border: 1px solid #ccc; 
+    border-radius: 15px; 
+}
+
+.note-form {
+    display: flex;
+    flex-direction: column; /* Stack items vertically vs horizontally */
+    align-items: left;
+    width: 100%;
+}
+
+.input-field {
+    padding: 15px;
+    margin: 15px 0px;
+    border-radius: 15px; /* Round edges */
+    box-shadow: 4px 4px 10px rgba(0,0,0,0.06); 
+    white-space: pre-wrap;
+}
+
+.add-button {
+    margin: 0 auto;
+    width: 100%; /* make button full width */
+    cursor: pointer;
+}
+
+.notes-container {
+    padding: 0;
+}
+
+.added-note-div {
+    border: 1px solid #ccc; 
+    border-radius: 15px; 
+    width: 100%;
+    padding: 10px 20px;
+    margin: 0 auto; /* Center the note in the container */
+}
+
+#delete-button {
+    float: right;
+}
