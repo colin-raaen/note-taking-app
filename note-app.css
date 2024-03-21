@@ -1,7 +1,16 @@
 /* Styling for App Name */
+body {
+    text-align: center;
+    display: flex; /* flexbox to make footer appear at bottom of page */
+    flex-direction: column;
+    min-height: 100vh; /* Set the minimum height of the body to 100% of the viewport height */
+    margin: 0;
+}
+
 .page-container{
     width: 70%;
     margin: 0 auto; /* auto" tells the browser to automatically calculate the margins based on the element's width and padding */
+    flex: 1; /* Allow the wrapper to grow and take up remaining space */
 }
 
 .app-name{
@@ -57,3 +66,20 @@
 #delete-button {
     float: right;
 }
+
+/* Footer Styling */
+.footer {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 25px;
+    background-color: white;
+    margin: 20px;
+  }
+  
+  .footer-top {
+    text-align: center;
+    font-size: 12px;
+    padding: 10px;
+    font-family: Helvetica, Arial, sans-serif;
+  }  
